@@ -1,3 +1,2 @@
-# SpringBootProjects
-# Stage 1
-Basic Spring Boot Projects
+# Spring-Boot-Projects
+# Level 1
