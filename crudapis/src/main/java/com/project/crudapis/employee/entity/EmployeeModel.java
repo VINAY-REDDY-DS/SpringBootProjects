@@ -12,7 +12,7 @@ import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
 
-@Entity
+@Entity(name = "employee")
 @Table(name = "employee_info")
 public class EmployeeModel {
 	
@@ -82,5 +82,11 @@ public class EmployeeModel {
 	public void setDepartment(DepartmentModel department) {
 		this.department = department;
 	}
+
+	public EmployeeModel() {
+		super();
+	}
+	
+	
 
 }

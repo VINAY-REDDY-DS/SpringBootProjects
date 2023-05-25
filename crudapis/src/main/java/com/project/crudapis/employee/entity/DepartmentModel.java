@@ -8,7 +8,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 
-@Entity
+@Entity(name = "department")
 @Table(name = "department_info")
 public class DepartmentModel {
 	
@@ -53,5 +53,11 @@ public class DepartmentModel {
 	public void setSalary(Double salary) {
 		this.salary = salary;
 	}
+
+	public DepartmentModel() {
+		super();
+	}
+	
+	
 	
 }
