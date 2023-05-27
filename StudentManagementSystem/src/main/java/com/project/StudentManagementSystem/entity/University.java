@@ -26,7 +26,7 @@ public class University {
 	@Column(name = "university_name",nullable = false)
 	private String name;
 	
-	@OneToMany(mappedBy = "university",cascade = CascadeType.ALL,fetch = FetchType.LAZY)
+	@OneToMany(mappedBy = "university",cascade = CascadeType.ALL, fetch  = FetchType.LAZY)
 	@JsonManagedReference
 	private List<College> college;
 
